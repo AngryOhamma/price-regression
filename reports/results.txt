@@ -1,0 +1,15 @@
+KAMIS Wholesale Cabbage Project Results
+========================================
+
+Train rows (<=2022): 2584
+Test rows (2023): 1243
+
+Correlation threshold: 0.95
+Dropped features: ['month_sin', 'month_cos', 'lag_2', 'lag_3', 'lag_7', 'roll_mean_4', 'roll_mean_8']
+Remaining features: 3
+
+Best Model: PCA + Ridge
+PCA n_components: 3
+Ridge alpha: 316.22776601683796
+CV RMSE (log1p): 0.197285
+Holdout RMSE 2023 (log1p): 0.180629
