@@ -15,7 +15,6 @@ For clarity and reproducibility, key Korean column names were mapped to English 
 - Integrated six annual CSV files (2021–2023)  
 - Processed ~3.8M raw records  
 - Filtered to 3,835 wholesale cabbage observations  
-  (배추, 도매, 상품, 할인=N)
 
 ## Feature Engineering
 - Autoregressive lag features (1, 2, 3, 7-day)  
